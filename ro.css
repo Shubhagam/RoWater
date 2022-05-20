@@ -1,0 +1,116 @@
+body {
+    margin: 0px 5px 5px 5px;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1980px;
+
+
+}
+
+#card-body {
+    border: 2px;
+    color: aqua;
+}
+
+#image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#image2 {
+    margin-top: 30px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#ro {
+    display: inline-block;
+}
+
+.card-title {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#inline {
+    margin-top: 30px;
+    display: inline;
+
+}
+
+
+.container {
+    width: 100%;
+    margin: 0;
+
+}
+
+.row {
+    padding: 0%;
+    width: 1980px;
+    margin: 0%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: rgb(189, 176, 106);
+    padding: 0px;
+}
+
+footer h4 {
+    text-decoration: underline;
+}
+
+.footer-col {
+    margin: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#footer-container {
+    max-width: 1280px;
+}
+
+
+
+#contact {
+    margin: 10px 50%;
+}
+
+
+form {
+    padding: 10px 50px;
+
+    background-color: rgb(153, 153, 142);
+
+}
+
+.input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(163, 159, 159);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+#submitButton {
+    width: 100px;
+}
+
+h5 {
+    display: inline;
+}
