@@ -17,8 +17,9 @@ body {
 }
 
 #image {
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
 }
 
 #image2 {
@@ -47,13 +48,12 @@ body {
 .container {
     width: 100%;
     margin: 0;
-
 }
 
 .row {
     padding: 0%;
-    width: 1980px;
     margin: 0%;
+   
 }
 
 ul {
@@ -61,8 +61,9 @@ ul {
 }
 
 .footer {
-    background-color: rgb(189, 176, 106);
+    background-color: rgb(214, 214, 205);
     padding: 0px;
+    
 }
 
 footer h4 {
@@ -73,13 +74,12 @@ footer h4 {
     margin: 10px;
     width: 20%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 #footer-container {
-    max-width: 1280px;
+    
 }
 
 
@@ -97,7 +97,8 @@ form {
 }
 
 .input {
-    width: 50%;
+
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -113,4 +114,9 @@ form {
 
 h5 {
     display: inline;
+}
+
+.error{
+    text-decoration:wavy;
+    color: red;
 }
